@@ -689,16 +689,6 @@
 		>;
 	};
 
-	pinctrl_ecspi1: ecspi1grp {
-		fsl,pins = <
-			MX8MM_IOMUXC_ECSPI1_SCLK_ECSPI1_SCLK		0x13
-			MX8MM_IOMUXC_ECSPI1_MOSI_ECSPI1_MOSI		0x13
-			MX8MM_IOMUXC_ECSPI1_MISO_ECSPI1_MISO		0x13
-			MX8MM_IOMUXC_GPIO1_IO14_GPIO1_IO14		0x13
-			MX8MM_IOMUXC_GPIO1_IO00_GPIO1_IO0		0x13
-			MX8MM_IOMUXC_SD2_RESET_B_GPIO2_IO19		0x13
-		>;
-	};
 
 	pinctrl_can: cangrp {
 		fsl,pins = <
@@ -707,9 +697,4 @@
 		>;
 	};
 
-	pinctrl_restouch: restouchgrp {
-		fsl,pins = <
-			MX8MM_IOMUXC_GPIO1_IO03_GPIO1_IO3		0x1c0
-		>;
-	};
 };
